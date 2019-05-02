@@ -1,8 +1,8 @@
 <#import "parts/common.ftl" as c>
 
 <@c.page>
-
-<h2>Список товаров</h2>
+<h2>Список товаров </h2>
+<a href="/item/add" class="btn btn-primary"  role="button" aria-pressed="true">Добавить</a>
 <table class="table">
     <thead>
     <tr>
