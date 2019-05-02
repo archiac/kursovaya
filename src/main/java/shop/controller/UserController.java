@@ -1,5 +1,6 @@
 package shop.controller;
 
+import shop.entity.Role;
 import shop.entity.User;
 import shop.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,7 +9,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Arrays;
 import java.util.Map;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 @Controller
 @RequestMapping("/user")
@@ -21,46 +25,39 @@ public class UserController {
     public String userList(Map<String, Object> model){
         Iterable<User> users = userService.loadAllUsers();
         model.put("users", users);
-        return "user";
+        return "userList";
     }
 
-    @PostMapping("/filter")
-    public String filterUser(@RequestParam("filter") String filter, Map<String, Object> model) {
-        Iterable<User> users;
-        if (filter != null && !filter.isEmpty()) {
-            users = userService.loadUserByActive(Boolean.parseBoolean(filter));
-        } else {
-            users = userService.loadAllUsers();
-        }
-
-        model.put("users", users);
-
-        return "user";
-    }
-
-    @PostMapping("deleteUser")
-    public String delete(@RequestParam("id") User user, Map<String, Object> model){
-        userService.deleteUser(user);
-
-        Iterable<User> users = userService.loadAllUsers();
-        model.put("users", users);
-
-        return "user";
-    }
-
-    @GetMapping("/{user}")
-    public String editUser(@PathVariable User user, Model model) {
+    @GetMapping("{user}")
+    public String userEditForm(@PathVariable User user, Model model) {
         model.addAttribute("user", user);
-        return "editUser";
+        model.addAttribute("roles", Role.values());
+
+        return "userEdi";
     }
 
-    @PostMapping("/show")
-    public String edit(@RequestParam String fio, @RequestParam boolean active, @RequestParam("id") User user){
-        user.setFio(fio);
-        user.setActive(active);
+    @PostMapping
+    public String userSave(
+            @RequestParam String username,
+            @RequestParam Map<String, String> form,
+            @RequestParam("userId") User user
+    ) {
+        user.setUsername(username);
 
+        Set<String> roles = Arrays.stream(Role.values())
+                .map(Role::name)
+                .collect(Collectors.toSet());
+
+        user.getRoles().clear();
+
+        for (String key : form.keySet()) {
+            if (roles.contains(key)) {
+                user.getRoles().add(Role.valueOf(key));
+            }
+        }
         userService.saveUsers(user);
-
         return "redirect:/user";
     }
+
+
 }

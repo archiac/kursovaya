@@ -6,9 +6,4 @@
     <#--<@l.logout />-->
 <#--</div>-->
 
-    <div class="row">
-
-    </div>
-
-
 </@c.page>

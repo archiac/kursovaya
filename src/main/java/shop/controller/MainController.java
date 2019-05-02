@@ -27,7 +27,6 @@ public class MainController {
 
     @GetMapping("/main")
     public String me(Map<String, Object> model){
-
         return "main";
     }
 }
