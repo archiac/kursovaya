@@ -22,6 +22,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="/user">Список пользователей</a>
             </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/item">Список товаров</a>
+        </li>
         </#if>
     </ul>
         <#if name == "unknown">
