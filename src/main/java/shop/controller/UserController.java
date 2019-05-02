@@ -47,7 +47,6 @@ public class UserController {
         Set<String> roles = Arrays.stream(Role.values())
                 .map(Role::name)
                 .collect(Collectors.toSet());
-
         user.getRoles().clear();
 
         for (String key : form.keySet()) {
@@ -57,6 +56,16 @@ public class UserController {
         }
         userService.saveUsers(user);
         return "redirect:/user";
+    }
+
+    @PostMapping("delUser")
+    public String delete(@RequestParam("id") User user, Map<String, Object> model){
+        userService.deleteUser(user);
+
+        Iterable<User> users = userService.loadAllUsers();
+        model.put("users", users);
+
+        return "userList";
     }
 
 

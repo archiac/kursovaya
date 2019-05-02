@@ -4,7 +4,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <ul class="nav navbar-default">
         <li class="nav-item active">
-            <a class="nav-link" href="#">Shop <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/">Electron <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">Телефоны</a>
