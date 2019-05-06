@@ -18,4 +18,8 @@ public class ItemService {
     }
 
 
+    @Transactional
+    public void deleteItem(Item item){
+        itemRepo.delete(item);
+    }
 }
