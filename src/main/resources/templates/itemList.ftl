@@ -7,7 +7,8 @@
     <thead>
     <tr>
         <th>#</th>
-        <th>Наименование</th>
+        <th>Товар</th>
+        <th>Модель</th>
         <th>Описание</th>
         <th>Цена</th>
         <th>Доступность</th>
@@ -20,6 +21,7 @@
     <#list items as item>
     <tr>
         <td>${item.id}</td>
+        <td><#list item.type as type>${type}<#sep>, </#list></td>
         <td>${item.name}</td>
         <td>${item.description}</td>
         <td>${item.price}</td>
@@ -30,7 +32,7 @@
             <form method="post" action="/user/delUser">
                 <input type="hidden" value="${item.id}" name="id">
                 <input type="hidden" value="${_csrf.token}" name="_csrf">
-                <button class="btn btn-danger" type="submit">Удалить</button>
+                <button class="btn btn-danger" type="submit">      Удалить     </button>
             </form></td>
     </tr>
     </#list>

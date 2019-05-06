@@ -104,7 +104,7 @@
                 <p>
                     <i class="fas fa-home mr-3"></i> Беларусь, Минск, 220015, Берута 22/3 </p>
                 <p>
-                    <i class="fas fa-envelope mr-3"></i> electron@example.com</p>
+                    <i class="fas fa-envelope mr-3"></i> electron@gmail.com</p>
                 <p>
                     <i class="fas fa-phone mr-3"></i> +375292969708</p>
 

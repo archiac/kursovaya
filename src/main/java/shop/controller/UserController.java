@@ -1,6 +1,6 @@
 package shop.controller;
 
-import shop.entity.Role;
+import shop.entity.UserRole;
 import shop.entity.User;
 import shop.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,7 +31,7 @@ public class UserController {
     @GetMapping("{user}")
     public String userEditForm(@PathVariable User user, Model model) {
         model.addAttribute("user", user);
-        model.addAttribute("roles", Role.values());
+        model.addAttribute("roles", UserRole.values());
         return "userEdi";
     }
 
@@ -43,14 +43,14 @@ public class UserController {
     ) {
         user.setUsername(username);
 
-        Set<String> roles = Arrays.stream(Role.values())
-                .map(Role::name)
+        Set<String> roles = Arrays.stream(UserRole.values())
+                .map(UserRole::name)
                 .collect(Collectors.toSet());
         user.getRoles().clear();
 
         for (String key : form.keySet()) {
             if (roles.contains(key)) {
-                user.getRoles().add(Role.valueOf(key));
+                user.getRoles().add(UserRole.valueOf(key));
             }
         }
         userService.saveUsers(user);

@@ -24,7 +24,7 @@
             <form method="post" action="/user/delUser">
                 <input type="hidden" value="${user.id}" name="id">
                 <input type="hidden" value="${_csrf.token}" name="_csrf">
-                <button class="btn btn-danger" type="submit">Удалить</button>
+                <button class="btn btn-danger" type="submit">      Удалить     </button>
             </form></td>
     </tr>
     </#list>

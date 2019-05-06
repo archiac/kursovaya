@@ -1,6 +1,6 @@
 package shop.controller;
 
-import shop.entity.Role;
+import shop.entity.UserRole;
 import shop.entity.User;
 import shop.repos.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,7 +36,7 @@ public class RegisterController {
             return "registrationUserInfo";
         }
         User.setActive(true);
-        User.setRoles(Collections.singleton(Role.USER));
+        User.setRoles(Collections.singleton(UserRole.USER));
         userRepo.save(User);
         return "redirect:/login";
     }

@@ -12,7 +12,7 @@
     <div class="form-group row">
         <label for="Description" class="col-sm-2 col-form-label">Описание</label>
         <div class="col-sm-10">
-            <input type="text" name="Description" id="Description" class="form-control" value="${item.options}">
+            <input type="text" name="Description" id="Description" class="form-control" value="${item.description}">
         </div>
     </div>
     <div class="form-group row">
@@ -34,9 +34,9 @@
         </div>
     </div>
     <div class="form-group row">
-        <label for="Options" class="col-sm-2 col-form-label">Опции</label>
+        <label for="Description" class="col-sm-2 col-form-label">Опции</label>
         <div class="col-sm-10">
-            <input type="text" name="Options" id="Options" class="form-control" value="${item.options}">
+            <input type="text" name="Description" id="Description" class="form-control" value="${item.options}">
         </div>
     </div>
 

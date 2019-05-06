@@ -1,6 +1,7 @@
 package shop.entity;
 
 import javax.persistence.*;
+import java.util.Set;
 
 @Entity
 @Table(name = "item")
@@ -15,6 +16,19 @@ public class Item {
     private boolean isexist;
     private int qty;
     private String options;
+
+    @ElementCollection(targetClass = ItemType.class, fetch = FetchType.EAGER)
+    @CollectionTable(name = "item_type", joinColumns = @JoinColumn(name = "item_id"))
+    @Enumerated(EnumType.STRING)
+    private Set<ItemType> type;
+
+    public Set<ItemType> getType() {
+        return type;
+    }
+
+    public void setType(Set<ItemType> type) {
+        this.type = type;
+    }
 
     public Long getId() {
         return id;
