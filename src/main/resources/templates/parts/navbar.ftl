@@ -27,10 +27,18 @@
         </li>
         </#if>
     </ul>
+
         <#if name == "unknown">
             <a class="btn btn-outline-primary" href="/login"> Войти </a>
         <#else>
             <div class="mr-4">${name}</div>
             <@l.logout />
         </#if>
+    <nav class="navbar navbar-light bg-light">
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Поиск" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Найти</button>
+        </form>
+    </nav>
+    </ul>
 </nav>

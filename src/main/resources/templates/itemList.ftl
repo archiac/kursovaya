@@ -5,8 +5,9 @@
 <h2 class="text-center">Список товаров </h2>
     <h6> </h6>
 
-    <from method="post" action="filter">
-        <input type="text" name="filter">
+    <from method="post" action="filter" position="right">
+        <input type="text" name="filter" placeholder="Поиск">
+        <input type="hidden" value="${_csrf.token}" name="_csrf">
         <button type="submit">Найти</button>
     </from>
     <a class="btn btn-primary btn-lg btn-block" href="/item/addPhone" role="button">Добавить телефон</a>

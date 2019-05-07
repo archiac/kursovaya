@@ -50,10 +50,10 @@ public class ItemController {
         return "itemAddPhone";
     }
 
-   /* @GetMapping("/addLaptop")
+    @GetMapping("addLaptop")
     public String laptop(){
         return "itemAddLaptop";
-    }*/
+    }
 
     @PostMapping("itemAddPhone")
     public String addPhone(@RequestParam String name, @RequestParam String description,
@@ -62,6 +62,18 @@ public class ItemController {
                            Map<String,Object> model){
 
         Item item = new Item(name, description, price, isexist, qty, options, Collections.singleton(ItemType.PHONE));
+        itemRepo.save(item);
+
+        return "redirect:/item";
+    }
+
+    @PostMapping("itemAddLaptop")
+    public String addLaptop(@RequestParam String name, @RequestParam String description,
+                           @RequestParam double price, @RequestParam int qty,
+                           @RequestParam String options, @RequestParam boolean isexist,
+                           Map<String,Object> model){
+
+        Item item = new Item(name, description, price, isexist, qty, options, Collections.singleton(ItemType.LAPTOP));
         itemRepo.save(item);
 
         return "redirect:/item";
