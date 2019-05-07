@@ -64,7 +64,7 @@ public class ItemController {
         Item item = new Item(name, description, price, isexist, qty, options, Collections.singleton(ItemType.PHONE));
         itemRepo.save(item);
 
-        return "redirect:/itemList";
+        return "redirect:/item";
     }
 
     @PostMapping("filter")

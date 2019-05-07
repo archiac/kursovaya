@@ -9,7 +9,6 @@
         <input type="text" name="filter">
         <button type="submit">Найти</button>
     </from>
-
     <a class="btn btn-primary btn-lg btn-block" href="/item/addPhone" role="button">Добавить телефон</a>
     <a class="btn btn-secondary btn-lg btn-block" href="/item/addLaptop" role="button">Добавить ноутбук</a>
 <table class="table">
