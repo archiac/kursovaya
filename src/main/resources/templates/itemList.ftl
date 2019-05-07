@@ -29,7 +29,7 @@
         <td>${item.qty}</td>
         <td>${item.options}</td>
         <td><a href="/item/${item.id}" class="btn btn-primary" role="button" aria-pressed="true">Редактировать</a>
-            <form method="post" action="/user/delUser">
+            <form method="post" action="/item/delItem">
                 <input type="hidden" value="${item.id}" name="id">
                 <input type="hidden" value="${_csrf.token}" name="_csrf">
                 <button class="btn btn-danger" type="submit">      Удалить     </button>
