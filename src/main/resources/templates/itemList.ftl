@@ -1,8 +1,17 @@
 <#import "parts/common.ftl" as c>
 
 <@c.page>
-<h2>Список товаров </h2>
-<a href="/item/add" class="btn btn-primary"  role="button" aria-pressed="true">Добавить</a>
+
+<h2 class="text-center">Список товаров </h2>
+    <h6> </h6>
+
+    <from method="post" action="filter">
+        <input type="text" name="filter">
+        <button type="submit">Найти</button>
+    </from>
+
+    <a class="btn btn-primary btn-lg btn-block" href="/item/addPhone" role="button">Добавить телефон</a>
+    <a class="btn btn-secondary btn-lg btn-block" href="/item/addLaptop" role="button">Добавить ноутбук</a>
 <table class="table">
     <thead>
     <tr>

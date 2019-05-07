@@ -6,5 +6,5 @@ import shop.entity.Item;
 import java.util.List;
 
 public interface ItemRepo extends CrudRepository<Item,Long> {
-    List<Item> findById(int idItem);
+    List<Item> findByName(String name);
 }

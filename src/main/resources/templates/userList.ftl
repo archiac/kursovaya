@@ -2,7 +2,8 @@
 
 <@c.page>
 
-<h2>Список пользователей</h2>
+<h2 class="text-center">Список пользователей</h2>
+    <h6> </h6>
 <table class="table">
     <thead>
     <tr>

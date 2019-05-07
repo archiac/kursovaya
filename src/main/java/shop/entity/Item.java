@@ -22,6 +22,19 @@ public class Item {
     @Enumerated(EnumType.STRING)
     private Set<ItemType> type;
 
+    public Item(String name, String description, double price, boolean isexist, int qty, String options, Set<ItemType> type) {
+        this.name = name;
+        this.description = description;
+        this.price = price;
+        this.isexist = isexist;
+        this.qty = qty;
+        this.options = options;
+        this.type = type;
+    }
+
+    public Item() {
+    }
+
     public Set<ItemType> getType() {
         return type;
     }
