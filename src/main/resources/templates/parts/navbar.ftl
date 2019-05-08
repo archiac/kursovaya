@@ -23,9 +23,13 @@
                 <a class="nav-link" href="/user">Список пользователей</a>
             </li>
         <li class="nav-item">
-            <a class="nav-link" href="/item">Список товаров</a>
+            <a class="nav-link" href="/order/list">Список заказов</a>
         </li>
         </#if>
+        <li class="nav-item">
+            <a class="nav-link" href="/item">Список товаров</a>
+        </li>
+
     </ul>
 
         <#if name == "unknown">
