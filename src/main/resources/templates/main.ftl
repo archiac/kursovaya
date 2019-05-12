@@ -3,12 +3,13 @@
 
 <@c.page>
 
+    <div class="card-deck"
 
     <#list items as item>
-        <div class="card bg-light mb-3" style="max-width: 18rem;">
+        <div class="card bg-light mb-3 my-3" style="max-width: 18rem;">
 
         <#--<#if item.getType() == "PHONE">-->
-            <div class="card-header"> ${item.type} </div>
+            <#--<div class="card-header"> ${item.type} </div>-->
         <#--<#else>-->
         <#--<div class="card-header">Ноутбук</div>-->
         <#--</#if>-->
@@ -22,4 +23,5 @@
         </div>
         </div>
     </#list>
+    </div>
 </@c.page>
