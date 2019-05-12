@@ -37,7 +37,7 @@
         <div class="form-group row">
             <label class="col-sm-2 col-form-label"><h5>Наличие:</h5></label>
             <div class="col-sm-10">
-                <input type="checkbox" class="form-control" name="isexist"/>
+                <input type="checkbox" class="form-control" name="isexist" checked/>
             </div>
         </div>
     <input type="hidden" value="${_csrf.token}" name="_csrf">
