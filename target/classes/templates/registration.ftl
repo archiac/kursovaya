@@ -21,43 +21,50 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
-            <div class="panel panel-default" style="margin-top:45px">
-                <div class="panel-heading">
-                    <h3 class="panel-title">Заполните все поля</h3>
-                </div>
+                <h2 class="text-center">Регистрация </h2>
                 <div class="panel-body">
-                    <form method="post">
+                    <form class="form-horizontal" role="form"  method="post">
                         <input name="${_csrf.parameterName}" value="${_csrf.token}" type="hidden">
                         <div class="form-group">
-                            <label for="username">Логин</label>
+                            <label for="username" class="col-sm-2 control-label">Логин</label>
+                            <div class="col-sm-10">
                             <input type="text" class="form-control" id="username" placeholder="Логин"
                                    name="username">
+                            </div>
                         </div>
                         <div class="form-group">
-                            <label for="password">Пароль</label>
+                            <label for="password" class="col-sm-2 control-label">Пароль</label>
+                            <div class="col-sm-10">
                             <input type="password" class="form-control" id="password" placeholder="Пароль"
                                    name="password">
+                            </div>
                         </div>
                         <div class="form-group">
-                            <label for="fio">ФИО</label>
+                            <label for="fio" class="col-sm-2 control-label">ФИО</label>
+                            <div class="col-sm-10">
                             <input type="text" class="form-control" id="fio" placeholder="ФИО"
                                    name="fio">
+                            </div>
                         </div>
                         <div class="form-group">
-                            <label for="phone">Номер телефона</label>
+                            <label for="phone" class="col-sm-2 control-label">Номер телефона</label>
+                            <div class="col-sm-10">
                             <input type="text" class="form-control" id="phone" placeholder="+375 (__)-___-__-__"
                                    name="phone">
+                            </div>
                         </div>
                         <div class="form-group">
-                            <label for="email">Email</label>
+                            <label for="email" class="col-sm-2 control-label">Email</label>
+                            <div class="col-sm-10">
                             <input type="email" class="form-control" id="email" placeholder="example@gmail.com"
                                    name="email">
+                            </div>
                         </div>
-                        <button type="submit" class="btn btn-default" style="margin-left: 35%;margin-right: 20%">Регистрация</button>
+                        <button type="submit" class="btn btn-primary" style="margin-left: 35%;margin-right: 20%">Регистрация</button>
                         <#--<a href="registration"></a>-->
                     </form>
                 </div>
-            </div>
+
         </div>
     </div>
 </div>

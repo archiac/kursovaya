@@ -1,3 +1,4 @@
+<#include "parts/security.ftl">
 <#import "parts/common.ftl" as c>
 <#import "parts/login.ftl" as l>
 
@@ -13,9 +14,14 @@
         <div class="card-body">
         <h5 class="card-title">${item.name}</h5>
         <p class="card-text">${item.options}</p>
+            <p class="card-text">${item.description}</p>
+            <p class="card-text">${item.price}</p>
+            <#if isAdmin><p>${item.isexist?string}</p></#if>
+            <p class="card-text">${item.qty}</p>
+            <p class="card-text">${item.options}</p>
         </div>
         <div class="card-footer">
-        <a href="/order/${item.name}" class="btn btn-primary">Заказать</a>
+        <a href="/order/${item.id}" class="btn btn-primary">Заказать</a>
         </div>
         </div>
     </#list>
