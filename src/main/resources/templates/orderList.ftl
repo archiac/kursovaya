@@ -27,6 +27,11 @@
         <td>${order._username}</td>
         <td>${order._address}</td>
         <td>${order.payment}</td>
+        <td> <form method="post" action="/order/addSale">
+            <input type="hidden" value="${order.idorder}" name="orderId">
+            <input type="hidden" value="${_csrf.token}" name="_csrf">
+            <button class="btn btn-danger" type="submit">Оформить</button>
+        </form></td>
     </tr>
     </#list>
     </tbody>

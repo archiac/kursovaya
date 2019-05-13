@@ -82,7 +82,7 @@ public class ItemController {
     }
 
     @PostMapping("filter")
-    public String filter(@RequestParam String filter, Map<String, Object> model){
+    public String filter(@RequestParam ("filter") String filter, Map<String, Object> model){
         Iterable<Item> items=itemRepo.findByName(filter);
         model.put("items",items);
         return "itemList";

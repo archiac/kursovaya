@@ -4,12 +4,11 @@
 <@c.page>
 
 <h2 class="text-center">Список товаров </h2>
-
-    <from method="post" action="filter" position="right">
-        <input type="text" name="filter" placeholder="Поиск">
+    <form method="post" action="/item/filter">
+        <input type="text" name="filter" placeholder="Поиск по модели">
         <input type="hidden" value="${_csrf.token}" name="_csrf">
         <button type="submit">Найти</button>
-    </from>
+    </form>
     <#if isAdmin>
     <a class="btn btn-primary" href="/item/addPhone" role="button">Добавить телефон</a>
     <a class="btn btn-secondary" href="/item/addLaptop" role="button">Добавить ноутбук</a>

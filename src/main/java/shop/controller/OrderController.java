@@ -40,7 +40,7 @@ public class OrderController {
 
     @GetMapping("list")
     public String orderList( Map<String,Object> model){
-        Iterable<Order> orders=orderService.loadAllOrders();
+        Iterable<Order> orders=orderService.loadOrderByActive();
         model.put("orders",orders);
         return "orderList";
     }
@@ -51,8 +51,16 @@ public class OrderController {
             @RequestParam int _qty, @RequestParam String _username,@RequestParam String _address, @RequestParam String typePayment,
                            Map<String,Object> model){
         int _amount=_qty*(int)_price;
-        Order order=new Order(_username,_model,_description,_qty,_amount,_address, typePayment);
+        boolean active=true;
+        Order order=new Order(_username,_model,_description,_qty,_amount,_address, typePayment,active);
         orderRepo.save(order);
         return "redirect:/item";
+    }
+
+    @PostMapping("addSale")
+    public String addSale(@RequestParam("orderId") Order order){
+        order.setActive(false);
+        orderRepo.save(order);
+        return "redirect:/order/list";
     }
 }

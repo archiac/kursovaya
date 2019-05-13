@@ -45,7 +45,7 @@
                         </div>
                         <div class="form-group">
                             <label for="phone">Номер телефона</label>
-                            <input type="text" class="form-control" id="phone" placeholder="+375 XX XXX XX XX"
+                            <input type="text" class="form-control" id="phone" placeholder="+375 (__)-___-__-__"
                                    name="phone">
                         </div>
                         <div class="form-group">

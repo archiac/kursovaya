@@ -6,6 +6,8 @@ import org.springframework.transaction.annotation.Transactional;
 import shop.entity.Order;
 import shop.repos.OrderRepo;
 
+import java.util.List;
+
 @Service
 public class OrderService {
 
@@ -16,5 +18,8 @@ public class OrderService {
      public Iterable<Order> loadAllOrders(){
         return orderRepo.findAll();
     }
-
+    @Transactional
+    public List<Order> loadOrderByActive() {
+        return  orderRepo.findByActive(true);
+    }
 }

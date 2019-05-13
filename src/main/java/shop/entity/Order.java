@@ -18,10 +18,12 @@ public class Order {
     private String _address;
     private String payment;
 
+    private boolean active;
+
     public Order() {
     }
 
-    public Order(String _username, String _model, String _description, int _qty, int _amount, String _address, String payment) {
+    public Order(String _username, String _model, String _description, int _qty, int _amount, String _address, String payment, boolean active) {
         this._username = _username;
         this._model = _model;
         this._description = _description;
@@ -29,8 +31,16 @@ public class Order {
         this._amount = _amount;
         this._address = _address;
         this.payment=payment;
+        this.active=active;
     }
 
+    public boolean isActive() {
+        return active;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
+    }
 
     public String getPayment() {
         return payment;

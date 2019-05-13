@@ -41,7 +41,7 @@
             </div>
         </div>
     <input type="hidden" value="${_csrf.token}" name="_csrf">
-        <button type="submit" class="btn btn-success btn-lg btn-block">Добавить в продажу</button>
+        <button type="submit" class="btn btn-success">Добавить в продажу</button>
         <h2> </h2>
     </form>
 </@c.page>
