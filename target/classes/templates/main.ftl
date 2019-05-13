@@ -3,12 +3,13 @@
 
 <@c.page>
 
+    <div class="card-deck"
 
     <#list items as item>
-        <div class="card bg-light mb-3" style="max-width: 18rem;">
+        <div class="card bg-light mb-3 my-3" style="max-width: 18rem;">
 
         <#--<#if item.getType() == "PHONE">-->
-            <div class="card-header">${item.getType()} </div>
+            <#--<div class="card-header"> ${item.type} </div>-->
         <#--<#else>-->
         <#--<div class="card-header">Ноутбук</div>-->
         <#--</#if>-->
@@ -18,8 +19,9 @@
         <p class="card-text">${item.options}</p>
         </div>
         <div class="card-footer">
-    <a href="/order/${item.name}" class="btn btn-primary">Заказать</a>
+        <a href="/order/${item.name}" class="btn btn-primary">Заказать</a>
         </div>
         </div>
     </#list>
+    </div>
 </@c.page>

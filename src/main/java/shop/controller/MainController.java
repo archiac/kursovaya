@@ -32,11 +32,8 @@ public class MainController {
         return "login";
     }
 
-    @GetMapping("/main")
-
-    public String me(Map<String,Object> model){
-        Iterable<Item> items=itemService.loadAllItems();
-        model.put("items",items);
-        return "main";
+    @GetMapping("/about")
+    public String about(Map<String,Object> model){
+        return "aboutShop";
     }
 }

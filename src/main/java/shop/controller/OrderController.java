@@ -47,11 +47,11 @@ public class OrderController {
 
 
     @PostMapping("orderAddOrd")
-    public String addPhone(@RequestParam String _model, @RequestParam String _description,
-            @RequestParam int _qty, @RequestParam String _username,@RequestParam String _address,
+    public String addPhone(@RequestParam String _model, @RequestParam String _description, @RequestParam double _price,
+            @RequestParam int _qty, @RequestParam String _username,@RequestParam String _address, @RequestParam String typePayment,
                            Map<String,Object> model){
-        int _amount=_qty*10;
-        Order order=new Order(_username,_model,_description,_qty,_amount,_address);
+        int _amount=_qty*(int)_price;
+        Order order=new Order(_username,_model,_description,_qty,_amount,_address, typePayment);
         orderRepo.save(order);
         return "redirect:/item";
     }

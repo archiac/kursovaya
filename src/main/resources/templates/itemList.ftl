@@ -11,8 +11,8 @@
         <button type="submit">Найти</button>
     </from>
     <#if isAdmin>
-    <a class="btn btn-primary btn-lg btn-block" href="/item/addPhone" role="button">Добавить телефон</a>
-    <a class="btn btn-secondary btn-lg btn-block" href="/item/addLaptop" role="button">Добавить ноутбук</a>
+    <a class="btn btn-primary" href="/item/addPhone" role="button">Добавить телефон</a>
+    <a class="btn btn-secondary" href="/item/addLaptop" role="button">Добавить ноутбук</a>
     </#if>
 <table class="table">
     <thead>

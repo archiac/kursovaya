@@ -33,7 +33,6 @@
                 <#if error>
                     <div class="alert alert-danger" role="alert">Неверный логин или пароль!</div>
                 </#if>
-
                     <form method="post">
                         <input name="${_csrf.parameterName}" value="${_csrf.token}" type="hidden">
                         <div class="form-group">
@@ -46,7 +45,7 @@
                             <input type="password" class="form-control" id="password" placeholder="Пароль"
                                    name="password">
                         </div>
-                        <button type="submit" class="btn btn-default" style="margin-left: 40%;margin-right: 20%">Войти</button>
+                        <button type="submit" class="btn btn-primary"">Войти</button>
                         <a href="registration">Зарегистрироваться</a>
                     </form>
                 </div>

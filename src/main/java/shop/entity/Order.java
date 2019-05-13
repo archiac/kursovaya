@@ -16,17 +16,28 @@ public class Order {
     private int _qty;
     private int _amount;
     private String _address;
+    private String payment;
 
     public Order() {
     }
 
-    public Order(String _username, String _model, String _description, int _qty, int _amount, String _address) {
+    public Order(String _username, String _model, String _description, int _qty, int _amount, String _address, String payment) {
         this._username = _username;
         this._model = _model;
         this._description = _description;
         this._qty = _qty;
         this._amount = _amount;
         this._address = _address;
+        this.payment=payment;
+    }
+
+
+    public String getPayment() {
+        return payment;
+    }
+
+    public void setPayment(String payment) {
+        this.payment = payment;
     }
 
     public String get_address() {

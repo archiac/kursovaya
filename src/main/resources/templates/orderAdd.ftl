@@ -1,7 +1,7 @@
 <#import "parts/common.ftl" as c>
 
 <@c.page>
-<h2>Заказать товар</h2>
+<h2 xmlns="http://www.w3.org/1999/html">Заказать товар</h2>
 <form action="/order/orderAddOrd" method="post">
     <div class="form-group row">
         <label for="_model" class="col-sm-2 col-form-label">Наименование</label>
@@ -18,9 +18,10 @@
         </div>
     </div>
     <div class="form-group row">
-        <label for="_description" class="col-sm-2 col-form-label">Цена</label>
+        <label for="_price" class="col-sm-2 col-form-label">Цена</label>
         <div class="col-sm-10">
             ${item.price}
+            <input type="hidden" name="_price" id="_price" class="form-control" value="${item.price}">
         </div>
     </div>
 
@@ -47,17 +48,11 @@
 
     <div class="form-group row">
         <label for="_address" class="col-sm-2 col-form-label">Cпособ оплаты</label>
-        <div class="col-sm-10">
-            <div class="dropdown open">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Выберите способ оплаты
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" >Наличные</a>
-                    <a class="dropdown-item" >Банковская карта</a>
-                </div>
-            </div>
-        </div>
+      <select name="typePayment" class="selectpicker" data-style="btn-info">
+                <option value="Наличные">Наличные</option>
+                <option value="Наличные">Безналичные</option>
+      </select>
+
     </div>
 
     <div>

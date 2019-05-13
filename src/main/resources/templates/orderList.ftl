@@ -2,7 +2,7 @@
 
 <@c.page>
 
-<h2 class="text-center">Список пользователей</h2>
+<h2 class="text-center">Список заказов</h2>
     <h6> </h6>
 <table class="table">
     <thead>
@@ -13,6 +13,7 @@
         <th>Сумма</th>
         <th>ФИО</th>
         <th>Адрес</th>
+        <th>Тип оплаты</th>
         <th>Действие</th>
     </tr>
     </thead>
@@ -25,6 +26,7 @@
         <td>${order._amount}</td>
         <td>${order._username}</td>
         <td>${order._address}</td>
+        <td>${order.payment}</td>
     </tr>
     </#list>
     </tbody>
