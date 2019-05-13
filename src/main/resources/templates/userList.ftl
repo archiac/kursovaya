@@ -9,8 +9,8 @@
     <tr>
         <th>Username</th>
         <th>Email</th>
-        <th>Phone</th>
-        <th>Role</th>
+        <th>Телефон</th>
+        <th>Роль</th>
         <th>Действие</th>
     </tr>
     </thead>

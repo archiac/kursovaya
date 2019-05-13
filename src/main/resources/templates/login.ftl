@@ -22,10 +22,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
-            <div class="panel panel-default" style="margin-top:45px">
-                <div class="panel-heading">
-                    <h3 class="panel-title">Войдите используя логин и пароль</h3>
-                </div>
+            <h2 class="text-center">Авторизация </h2>
                 <div class="panel-body">
                 <#if logout>
                     <div class="alert alert-info" role="alert">Вы вышли из системы!</div>
@@ -33,23 +30,27 @@
                 <#if error>
                     <div class="alert alert-danger" role="alert">Неверный логин или пароль!</div>
                 </#if>
-                    <form method="post">
+                    <form class="form-horizontal" role="form"  method="post">
                         <input name="${_csrf.parameterName}" value="${_csrf.token}" type="hidden">
                         <div class="form-group">
-                            <label for="username">Логин</label>
+                            <label for="username" class="col-sm-2 control-label">Логин</label>
+                            <div class="col-sm-10">
                             <input type="text" class="form-control" id="username" placeholder="Логин"
                                    name="username">
+                            </div>
                         </div>
                         <div class="form-group">
-                            <label for="password">Пароль</label>
+                            <label for="password" class="col-sm-2 control-label">Пароль</label>
+                            <div class="col-sm-10">
                             <input type="password" class="form-control" id="password" placeholder="Пароль"
                                    name="password">
+                            </div>
                         </div>
                         <button type="submit" class="btn btn-primary"">Войти</button>
                         <a href="registration">Зарегистрироваться</a>
                     </form>
                 </div>
-            </div>
+
         </div>
     </div>
 </div>

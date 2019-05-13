@@ -16,7 +16,7 @@
 <table class="table">
     <thead>
     <tr>
-        <th>#</th>
+        <th>Номер</th>
         <th>Товар</th>
         <th>Модель</th>
         <th>Описание</th>
