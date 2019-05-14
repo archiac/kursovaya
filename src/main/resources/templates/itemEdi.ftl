@@ -2,7 +2,7 @@
 
 <@c.page>
 <h2>Редактировать товар</h2>
-<form action="/user" method="post">
+<form action="/item" method="post">
     <div class="form-group row">
         <label for="Name" class="col-sm-2 col-form-label">Наименование</label>
         <div class="col-sm-10">

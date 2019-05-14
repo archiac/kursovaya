@@ -1,8 +1,9 @@
 <#import "parts/common.ftl" as c>
 
 <@c.page>
-<h2>Добавление телефона</h2>
-<form method="post" action="/item/itemAddPhone">
+    <h2>Добавление телефона</h2>
+    <h5> </h5>
+    <form method="post" action="/item/itemAddPhone">
     <div class="form-group row">
         <label class="col-sm-2 col-form-label"><h5>Модель:</h5></label>
         <div class="col-sm-10">
@@ -41,5 +42,5 @@
     </div>
     <input type="hidden" value="${_csrf.token}" name="_csrf">
     <button type="submit" class="btn btn-success">Добавить в продажу</button>
-</form>
+    </form>
 </@c.page>

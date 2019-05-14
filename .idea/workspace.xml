@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc2f9e99-d055-4016-b942-ba31f61db597" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c31f3d36-d1cf-405d-89ca-4cf19adb48c2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c31f3d36-d1cf-405d-89ca-4cf19adb48c2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/itemList.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/itemList.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userList.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userList.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/itemAddLaptop.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/itemAddLaptop.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/itemAddPhone.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/itemAddPhone.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/itemEdi.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/itemEdi.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shop/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shop/controller/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.ftl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,98 +48,100 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="electronic@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="electronic: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="electronic: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="electronic@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="electronic: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="item: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="itemList.ftl" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/itemList.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="459">
+              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/shop/entity/ItemType.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/main.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="408">
+              <caret line="30" column="98" selection-start-line="30" selection-start-column="98" selection-end-line="30" selection-end-column="98" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="item" pinned="false" current-in-tab="false">
-        <entry file="das://c31f3d36-d1cf-405d-89ca-4cf19adb48c2/schema/electronic/table/item">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userList.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/userList.ftl">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/itemAddLaptop.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="765">
+              <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/shop/entity/Item.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/itemAddPhone.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1389#1390#0" expanded="true" />
-                <element signature="e#1423#1424#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.ftl" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/itemEdi.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="51" />
+            <state relative-caret-position="595">
+              <caret line="35" column="94" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="94" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registration.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registration.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="62" column="68" selection-start-line="62" selection-start-column="68" selection-end-line="62" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemController.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/shop/controller/ItemController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
+            <state relative-caret-position="1088">
               <caret line="79" selection-start-line="79" selection-end-line="79" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/shop/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="47" column="39" lean-forward="true" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+            <state relative-caret-position="85">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/shop/controller/RegisterController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -181,22 +189,16 @@
         <option value="$PROJECT_DIR$/src/main/java/shop/entity/UserRole.java" />
         <option value="$PROJECT_DIR$/src/main/java/shop/entity/Item.java" />
         <option value="$PROJECT_DIR$/src/main/java/shop/entity/ItemType.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/itemEdi.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/userEdi.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/shop/config/MvcConfig.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/itemAdd.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/shop/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/basket.ftl" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/orderAdd.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/aboutShop.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/shop/controller/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/main.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/shop/controller/ItemController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/itemAddLaptop.ftl" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/itemAddPhone.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/shop/repos/UserRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/shop/entity/Order.java" />
         <option value="$PROJECT_DIR$/src/main/java/shop/repos/OrderRepo.java" />
@@ -207,14 +209,14 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/registration.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/userList.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/itemList.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/itemAddLaptop.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/itemAddPhone.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/itemEdi.ftl" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/main.ftl" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -234,9 +236,6 @@
       <select />
     </treeState>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
@@ -251,35 +250,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kurs" type="462c0819:PsiDirectoryNode" />
+              <item name="Kursach" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kurs" type="462c0819:PsiDirectoryNode" />
+              <item name="Kursach" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kurs" type="462c0819:PsiDirectoryNode" />
+              <item name="Kursach" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kurs" type="462c0819:PsiDirectoryNode" />
+              <item name="Kursach" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kurs" type="462c0819:PsiDirectoryNode" />
+              <item name="Kursach" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -287,7 +286,16 @@
             </path>
             <path>
               <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kurs" type="462c0819:PsiDirectoryNode" />
+              <item name="Kursach" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kursach" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -296,7 +304,7 @@
             </path>
             <path>
               <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kurs" type="462c0819:PsiDirectoryNode" />
+              <item name="Kursach" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -305,7 +313,7 @@
             </path>
             <path>
               <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kurs" type="462c0819:PsiDirectoryNode" />
+              <item name="Kursach" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -314,7 +322,7 @@
             </path>
             <path>
               <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kurs" type="462c0819:PsiDirectoryNode" />
+              <item name="Kursach" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -323,14 +331,14 @@
             </path>
             <path>
               <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kurs" type="462c0819:PsiDirectoryNode" />
+              <item name="Kursach" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kurs" type="462c0819:PsiDirectoryNode" />
+              <item name="Kursach" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -338,7 +346,7 @@
             </path>
             <path>
               <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kurs" type="462c0819:PsiDirectoryNode" />
+              <item name="Kursach" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -349,8 +357,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -362,10 +369,10 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557231423455" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557814190536" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab2" />
+    <property name="last_opened_file_path" value="E:/6 семестр/курсач Макс/sto" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -404,65 +411,43 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="Shop" />
+      <module name="Kursach" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="shop.Application" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
+    <configuration default="true" type="TestNG">
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Application.Application" />
+      <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
@@ -501,6 +486,8 @@
       <workItem from="1557161887098" duration="1602000" />
       <workItem from="1557246935612" duration="3610000" />
       <workItem from="1557774221285" duration="5749000" />
+      <workItem from="1557783374911" duration="11726000" />
+      <workItem from="1557851451266" duration="1898000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1555946766900</created>
@@ -562,7 +549,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126210000" />
+    <option name="totallyTimeSpent" value="139834000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -574,83 +561,83 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.38283828" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32980332" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" anchor="right" id="Database" order="6" visible="true" weight="0.21331316" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2185501" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32838285" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32838285" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.32838285" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.32838285" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32838285" />
-      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32838285" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21406959" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.32936078" />
-      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Maven" order="10" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
-    </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Maven" order="10" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.32838285" />
-      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32838285" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18316832" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="Capture Tool" order="6" />
+      <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.18093175" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32838285" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32838285" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.38283828" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32827735" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32827735" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32838285" />
       <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32980332" />
+      <window_info active="true" anchor="right" id="Database" order="6" visible="true" weight="0.1380597" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19591528" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18316832" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32838285" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32838285" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32838285" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32838285" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32980332" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19591528" />
       <window_info anchor="right" id="Database" order="6" weight="0.21331316" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
       <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Maven" order="10" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -681,9 +668,20 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second commit" />
@@ -697,13 +695,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="addSale" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://c31f3d36-d1cf-405d-89ca-4cf19adb48c2/schema/electronic/table/item">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://DATABASE/c31f3d36-d1cf-405d-89ca-4cf19adb48c2.SCHEMA:electronic">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -788,13 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shop/controller/RegisterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/itemAdd.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -802,31 +786,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://c31f3d36-d1cf-405d-89ca-4cf19adb48c2/schema/electronic/table/hibernate_sequence">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/itemEdi.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -855,34 +818,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/main.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="e#178#203#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/aboutShop.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="376" selection-start-line="5" selection-start-column="376" selection-end-line="5" selection-end-column="376" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/itemAddLaptop.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/itemAddPhone.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -911,13 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shop/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -995,71 +927,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shop/entity/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1389#1390#0" expanded="true" />
-            <element signature="e#1423#1424#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registration.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="68" selection-start-line="62" selection-start-column="68" selection-end-line="62" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/userList.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shop/controller/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://c31f3d36-d1cf-405d-89ca-4cf19adb48c2/schema/electronic/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shop/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="47" column="39" lean-forward="true" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shop/entity/ItemType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://c31f3d36-d1cf-405d-89ca-4cf19adb48c2/schema/electronic/table/item">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -1073,10 +941,137 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/shop/entity/ItemType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/userList.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registration.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="68" selection-start-line="62" selection-start-column="68" selection-end-line="62" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5chars.ent">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="134" column="10" selection-start-line="134" selection-start-column="10" selection-end-line="134" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="556" column="22" selection-start-line="556" selection-start-column="22" selection-end-line="556" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/shop/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/shop/entity/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="872">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
+            <element signature="e#1423#1424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/itemList.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="459">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/itemAddLaptop.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/itemAddPhone.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/itemEdi.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="94" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/shop/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/shop/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/shop/controller/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c31f3d36-d1cf-405d-89ca-4cf19adb48c2/schema/electronic/table/item">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/main.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="98" selection-start-line="30" selection-start-column="98" selection-end-line="30" selection-end-column="98" />
         </state>
       </provider>
     </entry>

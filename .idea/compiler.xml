@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Kursach" />
         <module name="Kursovaya" />
         <module name="kursovaya" />
         <module name="Shop" />
@@ -14,6 +15,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Kursach" options="-parameters" />
       <module name="kursovaya" options="-parameters" />
     </option>
   </component>
