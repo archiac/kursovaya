@@ -37,8 +37,9 @@
             <@l.logout />
         </#if>
     <nav class="navbar navbar-light bg-light">
-        <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Поиск" aria-label="Search">
+        <form class="form-inline" method="post" action="/filterMain">
+            <input class="form-control mr-sm-2" name="filterMain" type="search" placeholder="Поиск" aria-label="Search">
+            <input type="hidden" value="${_csrf.token}" name="_csrf">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Найти</button>
         </form>
     </nav>

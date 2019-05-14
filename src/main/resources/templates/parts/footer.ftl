@@ -67,16 +67,16 @@
                 <h6 class="text-uppercase font-weight-bold">Наши партнеры</h6>
                 <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p>
-                    <a href="#!">Apple</a>
+                    <a href="https://www.apple.com">Apple</a>
                 </p>
                 <p>
-                    <a href="#!">Samsung</a>
+                    <a href="https://www.samsung.com/ru">Samsung</a>
                 </p>
                 <p>
-                    <a href="#!">Huawei</a>
+                    <a href="https://www.huawei.com/by">Huawei</a>
                 </p>
                 <p>
-                    <a href="#!">Xiaomi</a>
+                    <a href="https://www.mi.com/global">Xiaomi</a>
                 </p>
 
             </div>
